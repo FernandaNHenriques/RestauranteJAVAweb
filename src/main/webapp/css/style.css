@@ -1,0 +1,38 @@
+@charset "UTF-8";
+img{
+	width:350px;
+	height: 200px;
+}
+body{
+	background-color: bisque;
+	font-family: Verdana;
+}
+input[type=submit], input[type=reset]{
+	background-color: red;
+	color: white;
+	padding: 8px;
+	border: none;
+	font-family: Verdana;
+}
+
+#lista{
+    width: 80%;
+    border-collapse:collapse;
+    font-family: Verdana; 
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(192, 192, 192);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#lista th, #lista td{
+	border:1px solid #ddd;
+	text-align: center;
+}
+#lista th{
+	background-color:#c0c0c0;
+	color: black;
+	padding: 5px;
+}
+#lista tr:hover{ 
+	background: #c0c0c0;
+}
